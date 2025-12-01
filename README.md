@@ -58,7 +58,7 @@ sales_pipeline_agent/
 ## Setup
 
 1. **Clone the repository**
-   - git clone <repository-url>
+   - git clone [<Sales-Pipeline-Intelligence-Agent>](https://github.com/yuno7777/sales-pipeline-intelligence-agent-kaggle-capstone-project/tree/main)
    - cd sales_pipeline_agent
 
 2. **Create and activate a virtual environment**
