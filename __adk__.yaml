@@ -1,0 +1,4 @@
+name: "Sales Pipeline Agent"
+version: "1.0.0"
+description: "Multi-agent sales pipeline automation system."
+root_agent: agent:root_agent

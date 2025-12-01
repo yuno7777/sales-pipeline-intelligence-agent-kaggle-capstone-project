@@ -1,0 +1,25 @@
+{
+  "eval_set_id": "sales_pipeline_integration_suite_v1",
+  "eval_cases": [
+    {
+      "eval_id": "research_basic_apple",
+      "conversation": [
+        {
+          "user_content": {"parts":[{"text": "Research the company Apple"}]},
+          "final_response": {"parts":[{"text": "Apple is a company operating in the Technology vertical (deterministic mock)."}]},
+          "intermediate_data": {"tool_uses":[{"name":"research_company","args":{"company_name":"Apple"}}]}
+        }
+      ]
+    },
+    {
+      "eval_id": "score_lead_dropbox",
+      "conversation": [
+        {
+          "user_content": {"parts":[{"text": "Score the lead for Dropbox: employees 3000 intent 4"}]},
+          "final_response": {"parts":[{"text": "Dropbox has been scored with tier B."}]},
+          "intermediate_data": {"tool_uses":[{"name":"score_lead","args":{"company_name":"Dropbox","employee_count":3000,"intent_score":4}}]}
+        }
+      ]
+    }
+  ]
+}
